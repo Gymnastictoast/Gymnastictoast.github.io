@@ -1,14 +1,14 @@
 # Title of your blog; shows in the header
-name: "noahhi"
+name: "Noah HI"
 
 # Description of your content (will only be used on Google Search)
-description:  "The thoughts of Noah Hunt-Isaak"
+description:  "Stuff made by Noah Hunt-Isaak"
 
 # Your name. Will show in your footer + sidebar
 author: "Noah Hunt-Isaak"
 
 #url:  "http://gymnastictoast.github.io"
-baseurl:  ""
+baseurl:  "http://gymnastictoast.github.io"
 permalink: :title/
 
 
@@ -17,7 +17,7 @@ author-bio: ""
 
 # Social Accounts (mine, as placeholders)
 twitter:
-github:
+github: Gymnastictoast
 linkedin:
 CV:
 dribbble:
