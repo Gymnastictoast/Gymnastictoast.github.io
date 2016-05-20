@@ -22,7 +22,7 @@ int deathBy = 0;                     //Records what killed you for death screen 
 
 
 void setup() {
-  size(400, 400);
+  size(800, 400);
   stroke(255, 0, 0);
   smooth();
   textAlign(CENTER);                                 //Font and Text Settings
@@ -820,7 +820,7 @@ class Door{
        }
     }
 
-    
+
 ////////////////////////////////////////////////////////////////////////
 /*                                PLATFORM CLASS                      */
 ////////////////////////////////////////////////////////////////////////
