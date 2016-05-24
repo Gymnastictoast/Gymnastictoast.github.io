@@ -4,6 +4,7 @@
  permalink: Games Made with Processing
 ---
 
-# Games
+
 
 <canvas data-processing-sources="/assets/files/Platformer.pde"></canvas>
+<canvas data-processing-sources="/assets/files/AvoidCirlcesGame.pde"></canvas>
