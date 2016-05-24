@@ -19,8 +19,6 @@ int deathBy = 0;                     //Records what killed you for death screen 
 /*                                SETUP                               */
 ////////////////////////////////////////////////////////////////////////
 
-
-
 void setup() {
   size(400, 400);
   stroke(255, 0, 0);
@@ -686,8 +684,8 @@ void Level6() {
   }
 
 
-  Door door6 = new Door(170,100);
-  door6.display();
+  Door door3 = new Door(170,100);
+  door3.display();
 
   if(y<120 && x<245+diam/2 && x>240-diam/2)  //Wall from right works
       x = 245+diam/2;
@@ -709,8 +707,6 @@ void Level6() {
     onFloor = false;
   }
 }
-
-
 
 
 ////////////////////////////////////////////////////////////////////////
@@ -827,7 +823,7 @@ class Door{
 
 /*
 
-// note  - -Platform class not currently working as intended
+// Platform class not currently working as intended
 
 class Platform {
 
