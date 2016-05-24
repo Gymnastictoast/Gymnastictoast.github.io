@@ -7,4 +7,5 @@
 
 
 <canvas data-processing-sources="/assets/files/Platformer.pde"></canvas>
-<canvas data-processing-sources="/assets/files/AvoidCirlcesGame.pde"></canvas>
+
+<canvas data-processing-sources="/assets/files/AvoidCirclesGame.pde"></canvas>
