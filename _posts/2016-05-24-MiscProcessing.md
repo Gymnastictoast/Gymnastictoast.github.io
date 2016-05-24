@@ -4,7 +4,7 @@
  permalink: Miscellaneous Processing Stuff
 ---
 
-Crazy Rotation
+Crazy Rotation <a href="/assets/files/CrazyRotation.txt">SourceCode</a>
 <canvas data-processing-sources="/assets/files/CrazyRotation.pde"></canvas>
 
 Illusion of Waves
