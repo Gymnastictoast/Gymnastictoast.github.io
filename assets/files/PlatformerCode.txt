@@ -827,7 +827,7 @@ class Door{
 
 /*
 
-// NOTE  - -Platform class not currently working as intended
+// note  - -Platform class not currently working as intended
 
 class Platform {
 
