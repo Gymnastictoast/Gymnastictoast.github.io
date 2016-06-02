@@ -5,7 +5,10 @@ background(200,200,0);
 float mode = 1;
 
 void draw() {
+<<<<<<< HEAD
     if(mode == 1){
+=======
+>>>>>>> parent of 1582616... Made crazyrotation end once off screen
     translate(width/2,height/2);
     fill(random(255),random(255),
     random(255));
@@ -16,6 +19,7 @@ void draw() {
     float diam = 300-r_circle;
     ellipse(0,0,diam,diam);
     r_circle=r_circle+10;
+<<<<<<< HEAD
     }
     if(r >= 100){
     mode = 2;
@@ -34,3 +38,7 @@ void draw() {
     r_circle=r_circle-10;
     }
 }
+=======
+
+    }
+>>>>>>> parent of 1582616... Made crazyrotation end once off screen
