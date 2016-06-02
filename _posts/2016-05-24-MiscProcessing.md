@@ -7,7 +7,7 @@
 Crazy Rotation <a href="/assets/files/CrazyRotation.txt">SourceCode</a>
 <canvas data-processing-sources="/assets/files/CrazyRotation.pde"></canvas>
 
-Illusion of Waves <a href="/assets/files/WavesCode.txt">SourceCode</a>
+Illusion of Waves <a href="/assets/files/WavesCode.txt">SourceCode</a> - Click  to Pause
 <canvas data-processing-sources="/assets/files/WavesSketch.pde"></canvas>
 
 Colorful Tendrils - Click to Pause

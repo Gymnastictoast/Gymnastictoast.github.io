@@ -2,13 +2,14 @@ float rot = 0;
 float Red = random(255);
 float Green = random(255);
 float Blue = random(255);
-
+boolean doDraw;
 
 
 void setup() {
     smooth();
     noStroke();
     size(400,400);
+    doDraw = true;
     }
 
 
@@ -21,7 +22,9 @@ void draw_rotating_rectangle(float x, float y,float r,float s) {
 
 
 void draw() {
+    if(doDraw == true){
     background(Red,Green,Blue);
+
     float x = 0;
     while(x < 15) {
     float y = 0;
@@ -29,7 +32,11 @@ void draw() {
 
         draw_rotating_rectangle( x * 30,y *30, rot+x+y+10, 20);
 
-        y = y + 1
+        y = y + 1;
         }
-        x = x +1}
-    rot = rot + .05}
+        x = x +1;}
+    rot = rot + .05;}}
+
+  void mousePressed(){
+    doDraw = !doDraw;
+  }
