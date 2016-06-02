@@ -21,8 +21,7 @@ void draw() {
     r_circle=r_circle+10;
 <<<<<<< HEAD
     }
-    if(r >= 100){
-    mode = 2;
+    if(r >= 100){mode == 2;
     }
 
     if(mode == 2){
