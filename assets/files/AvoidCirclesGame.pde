@@ -18,7 +18,7 @@ float dest_y = 0;
 float dest_x2 = 500;
 float dest_y2 = 500;
 float level = 1;
-float deaths = 0;
+
 
 
 
@@ -58,13 +58,13 @@ void draw() {
     d5 = dist(x3,y3,mouseX,mouseY);
     frameRate((level * 10)+ 30);
 
-//////////////////////////////////// Text for Score/ Level/ Deaths/ Frame Rate ///////////////
+//////////////////////////////////// Text for Score/ Level/ Frame Rate ///////////////
 
     if(playing){
       text("Score  " + Score,80,80);
       text("Level " + level, 80,100);
       text("FrameRate " + ((level * 10)+ 30), 80,120);}
-      text("Deaths  " + deaths, 80, 140);
+
 
 
       if(d > diam) {Score = Score + 1;}
@@ -74,18 +74,18 @@ void draw() {
     if((d < diam) && playing) {
         Score = 0;
         strokeWeight(random(10));
-        deaths = deaths + 1;
+
         }
 
      if((d2 < diam) && playing && (Score > 200)) {
         Score = 0;
         strokeWeight(random(10));
-        deaths = deaths + 1;
+
         }
      if((d5 < diam) && playing) {
         Score = 0;
         strokeWeight(random(10));
-        deaths = deaths + 1;
+
         }
 
 
@@ -180,7 +180,7 @@ void draw() {
 
     x3 = lerp(x3,dest_x2,0.04);
     y3 = lerp(y3,dest_y2,0.04);
-    
+
     if(d4 < 1) {
         dest_x2 = random(width);
         dest_y2 = random(height);
