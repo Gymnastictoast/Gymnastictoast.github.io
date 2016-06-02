@@ -180,7 +180,7 @@ void draw() {
 
     x3 = lerp(x3,dest_x2,0.04);
     y3 = lerp(y3,dest_y2,0.04);
-    
+
     if(d4 < 1) {
         dest_x2 = random(width);
         dest_y2 = random(height);
