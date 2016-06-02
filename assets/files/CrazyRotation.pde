@@ -17,7 +17,8 @@ void draw() {
     ellipse(0,0,diam,diam);
     r_circle=r_circle+10;
     }
-    if(r >= 100){mode == 2;
+    if(r >= 100){
+    mode = 2;
     }
 
     if(mode == 2){
