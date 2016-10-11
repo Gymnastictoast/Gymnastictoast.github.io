@@ -3,7 +3,7 @@ import peasy.org.apache.commons.math.*;
 import peasy.org.apache.commons.math.geometry.*;
 import peasy.test.*;
 
-PImage stars;
+//PImage stars;
 
 Planet sun;
 //PeasyCam cam;
@@ -14,12 +14,13 @@ void setup() {
   sun = new Planet(100, 0, 0, 240, 240, 0);
   sun.spawnMoons(5, 1);
 
-  stars = loadImage("https://i.ytimg.com/vi/qWDmlFsIMHM/maxresdefault.jpg");
+  //stars = loadImage("https://i.ytimg.com/vi/qWDmlFsIMHM/maxresdefault.jpg");
 }
 
 void draw() {
 
-  background(stars);
+  //background(stars);
+  background(0);
   lights();
   pointLight(255, 255, 255, 0, 0, 0);
   sun.show();
