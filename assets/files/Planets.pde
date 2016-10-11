@@ -6,11 +6,11 @@ import peasy.test.*;
 //PImage stars;
 
 Planet sun;
-//PeasyCam cam;
+PeasyCam cam;
 
 void setup() {
   size(1200, 1200, P3D);
-  //cam = new PeasyCam(this, 500);
+  cam = new PeasyCam(this, 500);
   sun = new Planet(100, 0, 0, 240, 240, 0);
   sun.spawnMoons(5, 1);
 
@@ -23,6 +23,7 @@ void draw() {
   background(0);
   lights();
   pointLight(255, 255, 255, 0, 0, 0);
+  translate(width/2,height/2);
   sun.show();
   sun.orbit();
 }
@@ -100,7 +101,6 @@ class Planet {
     rotate(angle, p.x, p.y, p.z);
 
     translate(v.x, v.y, v.z);
-    //shape(globe);
     sphere(radius);
 
     if (planets != null) {
