@@ -4,6 +4,8 @@
  permalink: Miscellaneous Processing Stuff
 ---
 
+<canvas data-processing-sources="/assets/files/application.windows64/Planets.exe"></canvas>
+
 <canvas data-processing-sources="/assets/files/Planets.pde"></canvas>
 
 Crazy Rotation <a href="/assets/files/CrazyRotation.txt">SourceCode</a>
