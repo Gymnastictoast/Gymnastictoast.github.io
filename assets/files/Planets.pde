@@ -6,11 +6,11 @@ import peasy.test.*;
 //PImage stars;
 
 Planet sun;
-PeasyCam cam;
+//PeasyCam cam;
 
 void setup() {
   size(1200, 1200, P3D);
-  cam = new PeasyCam(this, 500);
+  //cam = new PeasyCam(this, 500);
   sun = new Planet(100, 0, 0, 240, 240, 0);
   sun.spawnMoons(5, 1);
 
