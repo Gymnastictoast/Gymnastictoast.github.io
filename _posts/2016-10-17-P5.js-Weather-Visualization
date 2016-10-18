@@ -1,0 +1,7 @@
+---
+ layout: post
+ title: Miscellaneous Processing Stuff
+ permalink: Miscellaneous Processing Stuff
+---
+
+<canvas data-processing-sources="/Loading_Weather_Data_with_API/sketch.js"></canvas>
